@@ -11,7 +11,6 @@ parent(fernando, carlos).
 parent(pedro, andres).
 parent(pedro, juanjo).
 parent(pedro, chavo).
-parent(andres, quico).
 parent(andres, javier).
 parent(andres, ana).
 parent(juanjo, diego).
