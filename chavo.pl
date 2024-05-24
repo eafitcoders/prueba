@@ -22,11 +22,10 @@ parent(marina, roberto).
 
 parent(senor_barriga, ñoño).
 parent(madre_ñoño, ñoño).
-
+parent(madre_chavo, chavo).
 parent(profesor_jirafales, pedro).
 parent(profesor_jirafales, ernesto).
-parent(madre_pedro, pedro).
-parent(madre_ernesto, ernesto).
+
 
 parent(florinda, quico).
 % Relaciones de género
@@ -55,8 +54,8 @@ female(chilindrina).
 female(marina).
 female(florinda).
 female(madre_ñoño).
-female(madre_pedro).
-female(madre_ernesto).
+female(madre_chavo).
+
 
 % Definiciones de relaciones
 father(X,Y):-parent(X,Y), male(X).
