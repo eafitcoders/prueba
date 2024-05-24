@@ -17,7 +17,7 @@ parent(andres, ana).
 parent(juanjo, diego).
 parent(don_ramon, chilindrina).
 parent(don_ramon, roberto).
-parent(don_ramon, quico). % Añadido
+parent(don_ramon, quico). 
 parent(marina, chilindrina).
 parent(marina, roberto).
 
@@ -30,8 +30,6 @@ parent(madre_pedro, pedro).
 parent(madre_ernesto, ernesto).
 
 parent(florinda, quico).
-parent(padre_quico, quico).
-
 % Relaciones de género
 male(tomas).
 male(pedro).
@@ -49,7 +47,7 @@ male(diego).
 male(senor_barriga).
 male(profesor_jirafales).
 male(ñoño).
-male(padre_quico).
+male(don_ramon).
 
 female(maria).
 female(alicia).
